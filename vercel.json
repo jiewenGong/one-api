@@ -1,0 +1,13 @@
+{
+  "functions": {
+    "api/*.go": {
+      "runtime": "go1.x"
+    }
+  },
+  "build": {
+    "env": {
+      "GO_BUILD_FLAGS": "-ldflags '-s -w'",
+      "GO_GENERATE_WORK_FILE": "false"
+    }
+  }
+}
